@@ -73,7 +73,7 @@ section#login > #formulario {
     background-color: #784cb3;
     height: 40px;
     margin: 5px 0px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .campo > label {
@@ -81,8 +81,25 @@ section#login > #formulario {
 }
 
 .campo > i {
+    /* background-color: black; */
     color: white;
+    width: 40px;
+    padding: 5px;
     font-size: 2em;
+}
+
+.campo > input {
+    background-color: #66dbd7;
+    width: calc(100% - 50px);
+    height: 80%;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    transform: translateY(-11px);
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
